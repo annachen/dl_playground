@@ -2,13 +2,13 @@ from collections import namedtuple
 import tensorflow as tf
 import copy
 
-from artistcritic.networks.meta.masked_layers import (
+from dl_playground.networks.meta.masked_layers import (
     MaskedLayer,
     MaskedDense,
     MaskedConv2D,
 )
-from artistcritic.utils.yaml_loadable import YAMLLoadable
-from artistcritic.networks.classification.losses import (
+from dl_playground.utils.yaml_loadable import YAMLLoadable
+from dl_playground.networks.classification.losses import (
     accuracy_metric
 )
 

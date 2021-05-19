@@ -9,38 +9,38 @@ from functools import partial
 import yaml
 import shutil
 
-from artistcritic.train.batch_train import TrainConfig, BatchTrainer
-from artistcritic.networks.autoencoder.autoencoder import (
+from dl_playground.train.batch_train import TrainConfig, BatchTrainer
+from dl_playground.networks.autoencoder.autoencoder import (
     ConvAELayer,
 )
-from artistcritic.networks.autoencoder.mean_shift_ae import (
+from dl_playground.networks.autoencoder.mean_shift_ae import (
     MeanShiftAELayer,
 )
-from artistcritic.networks.autoencoder.vae import (
+from dl_playground.networks.autoencoder.vae import (
     ConvVAELayer,
 )
-from artistcritic.networks.autoencoder.kae_v2 import KAE as KAEv2
-from artistcritic.networks.autoencoder.patch_ae import (
+from dl_playground.networks.autoencoder.kae_v2 import KAE as KAEv2
+from dl_playground.networks.autoencoder.patch_ae import (
     PatchConvAELayer,
 )
-from artistcritic.networks.autoencoder.stacked_coord_ae import (
+from dl_playground.networks.autoencoder.stacked_coord_ae import (
     StackedCoordAELayer,
 )
-from artistcritic.networks.autoencoder.vqvae import VQVAE
-from artistcritic.networks.autoencoder.feat_agg import (
+from dl_playground.networks.autoencoder.vqvae import VQVAE
+from dl_playground.networks.autoencoder.feat_agg import (
     FeatureAggregation,
     ShapeAE,
 )
-from artistcritic.networks.autoencoder.texture_syn_v2 import (
+from dl_playground.networks.autoencoder.texture_syn_v2 import (
     TextureSynthV2,
 )
-from artistcritic.networks.autoencoder.cnn_im import CNNIM
-from artistcritic.networks.autoencoder.im_ae import IMAE
-from artistcritic.networks.layers.model import LayerModel
-from artistcritic.networks.layers.cnn import LayerConfig
-from artistcritic.path import MODEL_ROOT
-from artistcritic.data.datasets import DATASET_CHANNELS, load_dataset
-from artistcritic.data.preprocess import random_crop_patches
+from dl_playground.networks.autoencoder.cnn_im import CNNIM
+from dl_playground.networks.autoencoder.im_ae import IMAE
+from dl_playground.networks.layers.model import LayerModel
+from dl_playground.networks.layers.cnn import LayerConfig
+from dl_playground.path import MODEL_ROOT
+from dl_playground.data.datasets import DATASET_CHANNELS, load_dataset
+from dl_playground.data.preprocess import random_crop_patches
 
 
 OPTIMIZER_CLS = {

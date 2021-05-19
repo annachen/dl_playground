@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from artistcritic.networks.model import BatchModel, ContinualModel
+from dl_playground.networks.model import BatchModel, ContinualModel
 
 
 class LayerModel(tf.keras.Model, BatchModel):

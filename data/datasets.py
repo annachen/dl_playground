@@ -2,7 +2,7 @@ import tensorflow_datasets as tfds
 import tensorflow as tf
 import os
 
-from artistcritic.data import (
+from dl_playground.data import (
     mnist_superpixel, cats_vs_dogs, my_paintings, my_painting_patches,
     div2k_patches
 )

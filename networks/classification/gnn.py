@@ -1,9 +1,9 @@
 import tensorflow as tf
 
-from artistcritic.networks.layers.interface import BatchLayer
-from artistcritic.networks.layers.mlp import MLP
-from artistcritic.networks.layers.gnn import GNNLayer
-from artistcritic.networks.classification.losses import accuracy_metric
+from dl_playground.networks.layers.interface import BatchLayer
+from dl_playground.networks.layers.mlp import MLP
+from dl_playground.networks.layers.gnn import GNNLayer
+from dl_playground.networks.classification.losses import accuracy_metric
 
 EPS = 1e-5
 

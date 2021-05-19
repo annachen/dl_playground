@@ -6,8 +6,8 @@ import tensorflow as tf
 from collections import defaultdict
 import skimage.color
 
-from artistcritic.utils.superpixel import rgb_to_normalized_lab
-from artistcritic.networks.layers.cnn import ConvNet
+from dl_playground.utils.superpixel import rgb_to_normalized_lab
+from dl_playground.networks.layers.cnn import ConvNet
 
 
 exp_path = '/home/data/anna/models/texture_gan/mp_medium_upsample_dual'

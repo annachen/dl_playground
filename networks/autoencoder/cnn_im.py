@@ -2,9 +2,9 @@
 
 import tensorflow as tf
 
-from artistcritic.networks.layers.interface import BatchLayer
-from artistcritic.networks.autoencoder.im_decoder import IMDecoder
-from artistcritic.networks.layers.cnn import ConvNet, LayerConfig
+from dl_playground.networks.layers.interface import BatchLayer
+from dl_playground.networks.autoencoder.im_decoder import IMDecoder
+from dl_playground.networks.layers.cnn import ConvNet, LayerConfig
 
 
 class CNNIM(tf.keras.layers.Layer, BatchLayer):

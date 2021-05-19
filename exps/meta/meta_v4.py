@@ -5,26 +5,26 @@ from functools import partial
 import os
 import numpy as np
 
-from artistcritic.data.synthetic import (
+from dl_playground.data.synthetic import (
     gaussian_in_nd,
     vertical_or_horizontal,
 )
-from artistcritic.data.osaka import (
+from dl_playground.data.osaka import (
     pretrain_dataset,
     stream_dataset,
     meta_train_config,
     meta_test_config,
 )
-from artistcritic.data.datasets import load_dataset
-from artistcritic.networks.meta.stacked_masked import StackedMasked
-from artistcritic.networks.meta.past_grads import (
+from dl_playground.data.datasets import load_dataset
+from dl_playground.networks.meta.stacked_masked import StackedMasked
+from dl_playground.networks.meta.past_grads import (
     CoordWisePastGradsRNN,
     LayerCompetition,
 )
-from artistcritic.networks.meta.past_grads_v2 import DualRNN
-from artistcritic.networks.layers.mlp import MLP
-from artistcritic.exps.utils import load_and_save_config
-from artistcritic.data.continual_utils import to_stream_dataset
+from dl_playground.networks.meta.past_grads_v2 import DualRNN
+from dl_playground.networks.layers.mlp import MLP
+from dl_playground.exps.utils import load_and_save_config
+from dl_playground.data.continual_utils import to_stream_dataset
 
 
 TrainConfig = namedtuple('TrainConfig', [

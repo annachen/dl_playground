@@ -1,4 +1,4 @@
-from artistcritic.data.augmentation import augment
+from dl_playground.data.augmentation import augment
 
 from collections import namedtuple, defaultdict
 import os

@@ -1,7 +1,7 @@
 """Implements the layer interfaces used for batch learning"""
 
 from enum import Enum
-from artistcritic.utils.yaml_loadable import YAMLLoadable
+from dl_playground.utils.yaml_loadable import YAMLLoadable
 
 
 class BatchLayer(YAMLLoadable):

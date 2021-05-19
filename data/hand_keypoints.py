@@ -6,7 +6,7 @@ import imageio
 import numpy as np
 import json
 
-from artistcritic.utils.tfrecord import (
+from dl_playground.utils.tfrecord import (
     FeatureType,
     TFRecordConverter,
 )

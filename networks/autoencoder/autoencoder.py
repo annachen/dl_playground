@@ -1,17 +1,17 @@
 import tensorflow as tf
 import numpy as np
 
-from artistcritic.networks.layers.mlp import MLP, MLPWithBatchNorm
-from artistcritic.networks.layers.weight_sharing import (
+from dl_playground.networks.layers.mlp import MLP, MLPWithBatchNorm
+from dl_playground.networks.layers.weight_sharing import (
     MLPWithTransposedWeights,
     CNNWithTransposedWeights,
 )
-from artistcritic.networks.layers import cnn
-from artistcritic.networks.layers.interface import (
+from dl_playground.networks.layers import cnn
+from dl_playground.networks.layers.interface import (
     BatchLayer,
     MetricType,
 )
-from artistcritic.networks.autoencoder.losses import (
+from dl_playground.networks.autoencoder.losses import (
     reconstruction_loss,
 )
 

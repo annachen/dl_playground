@@ -1,6 +1,6 @@
 import numpy as np
 
-from artistcritic.networks.keypoint_detection.utils import Evaluation
+from dl_playground.networks.keypoint_detection.utils import Evaluation
 
 
 def pck(detections, gts, threshold):

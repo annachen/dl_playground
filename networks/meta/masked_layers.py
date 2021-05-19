@@ -3,7 +3,7 @@ import numpy as np
 from collections import deque
 
 
-from artistcritic.networks.utils import (
+from dl_playground.networks.utils import (
     activation_function,
     random_init
 )

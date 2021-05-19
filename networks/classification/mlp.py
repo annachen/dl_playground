@@ -1,8 +1,8 @@
 import tensorflow as tf
 
-from artistcritic.networks.layers.interface import BatchLayer
-from artistcritic.networks.layers.mlp import MLP
-from artistcritic.networks.classification.losses import (
+from dl_playground.networks.layers.interface import BatchLayer
+from dl_playground.networks.layers.mlp import MLP
+from dl_playground.networks.classification.losses import (
     accuracy_metric
 )
 

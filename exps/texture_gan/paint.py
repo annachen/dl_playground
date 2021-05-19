@@ -4,9 +4,9 @@ import scipy.ndimage
 import yaml
 import os
 
-from artistcritic.networks.layers.cnn import ConvNet
-from artistcritic.utils.superpixel import rgb_to_normalized_lab
-from artistcritic.utils.common import local_mean_tf
+from dl_playground.networks.layers.cnn import ConvNet
+from dl_playground.utils.superpixel import rgb_to_normalized_lab
+from dl_playground.utils.common import local_mean_tf
 
 
 class Palette:

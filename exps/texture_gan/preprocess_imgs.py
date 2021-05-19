@@ -4,7 +4,7 @@ import numpy as np
 import imageio
 import os
 
-from artistcritic.data.my_paintings import raw_dataset, scale_and_crop
+from dl_playground.data.my_paintings import raw_dataset, scale_and_crop
 
 
 ROOT = '/home/data/anna/datasets/my_painting_patches_109'

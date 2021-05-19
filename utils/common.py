@@ -3,7 +3,7 @@ import tensorflow as tf
 import os
 import cv2
 
-from artistcritic.path import PACKAGE_ROOT
+from dl_playground.path import PACKAGE_ROOT
 
 
 CIRCLE_MASKS = np.load(

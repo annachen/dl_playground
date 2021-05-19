@@ -3,7 +3,7 @@ from tensorflow.keras import layers, Model
 import numpy as np
 from collections.abc import Iterable
 
-from artistcritic.networks.utils import (
+from dl_playground.networks.utils import (
     config_to_regularizer,
     ActivityMonitor,
     activation_function,

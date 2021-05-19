@@ -5,10 +5,10 @@ from functools import partial
 import cv2
 import numpy as np
 
-from artistcritic.data.datasets import load_dataset
-from artistcritic.data.preprocess import extract_patches
-from artistcritic.networks.layers.cnn import LayerConfig, ConvNet
-from artistcritic.exps.utils import load_and_save_config
+from dl_playground.data.datasets import load_dataset
+from dl_playground.data.preprocess import extract_patches
+from dl_playground.networks.layers.cnn import LayerConfig, ConvNet
+from dl_playground.exps.utils import load_and_save_config
 
 
 n_steps = 500000

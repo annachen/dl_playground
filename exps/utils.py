@@ -2,7 +2,7 @@ import os
 import yaml
 import shutil
 
-from artistcritic.path import MODEL_ROOT
+from dl_playground.path import MODEL_ROOT
 
 
 def load_and_save_config(config_path, model_path):

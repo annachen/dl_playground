@@ -9,11 +9,11 @@ from functools import partial
 import yaml
 import shutil
 
-from artistcritic.train.batch_train import TrainConfig, BatchTrainer
-from artistcritic.networks.layers.model import LayerModel
-from artistcritic.path import MODEL_ROOT
-from artistcritic.data.naive_edge_graph import get_dataset
-from artistcritic.networks.classification.gnn import (
+from dl_playground.train.batch_train import TrainConfig, BatchTrainer
+from dl_playground.networks.layers.model import LayerModel
+from dl_playground.path import MODEL_ROOT
+from dl_playground.data.naive_edge_graph import get_dataset
+from dl_playground.networks.classification.gnn import (
     GNNGlobalClassifier
 )
 

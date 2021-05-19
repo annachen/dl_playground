@@ -6,8 +6,8 @@ import os
 import tensorflow as tf
 from functools import partial
 
-from artistcritic.utils.superpixel import segmentation_to_graph
-from artistcritic.utils import tfrecord
+from dl_playground.utils.superpixel import segmentation_to_graph
+from dl_playground.utils import tfrecord
 
 
 # Note: these are manually tuned for MNIST
@@ -202,7 +202,7 @@ def seg_list_to_features(segs):
 
 def run(output_folder, examples_per_file=1000):
     # Importing here to avoid circular import
-    from artistcritic.data.datasets import load_dataset
+    from dl_playground.data.datasets import load_dataset
     for split in ['train', 'test']:
         print("Running {} set".format(split))
         writer = tfrecord.ShardedTFRecordWriter(

@@ -2,12 +2,12 @@ from collections import namedtuple
 import tensorflow as tf
 import numpy as np
 
-from artistcritic.networks.utils import (
+from dl_playground.networks.utils import (
     config_to_regularizer,
     ActivityMonitor,
     activation_function,
 )
-from artistcritic.networks.layers.pool import (
+from dl_playground.networks.layers.pool import (
     LosslessPool,
     InvLosslessPool,
 )

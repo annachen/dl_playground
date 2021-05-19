@@ -2,7 +2,7 @@ import tensorflow as tf
 import glob
 import os
 
-from artistcritic.utils.tfrecord import (
+from dl_playground.utils.tfrecord import (
     FeatureType,
     TFRecordConverter,
 )

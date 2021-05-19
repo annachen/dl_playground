@@ -1,8 +1,8 @@
 import tensorflow as tf
 import numpy as np
 
-from artistcritic.networks.layers import mlp, cnn
-from artistcritic.networks.autoencoder import losses
+from dl_playground.networks.layers import mlp, cnn
+from dl_playground.networks.autoencoder import losses
 
 
 class VAELayer(tf.keras.layers.Layer):

@@ -7,8 +7,8 @@ https://arxiv.org/pdf/1602.00134.pdf
 import tensorflow as tf
 import tensorflow_probability as tfp
 
-from artistcritic.networks.layers.interface import BatchLayer
-from artistcritic.networks.layers.cnn import LayerConfig, ConvNet
+from dl_playground.networks.layers.interface import BatchLayer
+from dl_playground.networks.layers.cnn import LayerConfig, ConvNet
 
 
 VGG19CONV44_PATH = (

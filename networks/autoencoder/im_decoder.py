@@ -6,7 +6,7 @@ https://arxiv.org/pdf/1812.02822.pdf
 
 import tensorflow as tf
 
-from artistcritic.networks.utils import activation_function
+from dl_playground.networks.utils import activation_function
 
 
 class IMDecoder(tf.keras.layers.Layer):
